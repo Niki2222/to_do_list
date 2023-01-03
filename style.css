@@ -1,0 +1,48 @@
+.container {
+    background-color: lightblue;
+    width: 500px;
+    margin: 0 auto;
+    border: 3px solid darkgray;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.newTask {
+    width: 60%;
+    padding: 6px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: blue;
+    color: #fff;
+    padding: 7px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.delete {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: #fff;
+    padding: 7px;
+    width: 100%;
+    letter-spacing: 1px;
+}

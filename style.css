@@ -46,3 +46,10 @@ h1 {
     width: 100%;
     letter-spacing: 1px;
 }
+
+.taskList {
+    list-style: none;
+    background-color: #fff;
+    border-bottom: 1px solid darkgrey;
+    padding: 5px 10px;
+}
